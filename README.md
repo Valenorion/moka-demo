@@ -1,17 +1,29 @@
-# uts_a112415676
+# ☕ MOKA - F&B Cafe App
 
-A new Flutter project.
+MOKA adalah purwarupa aplikasi e-commerce *Food & Beverage* (F&B) cafe yang dibangun menggunakan **Flutter Web**. Proyek ini dikembangkan sebagai pemenuhan tugas Ujian Tengah Semester (UTS), dengan mengusung antarmuka bergaya *aesthetic* dan sentuhan *Y2K vibes*. 
 
-## Getting Started
+Aplikasi ini dirancang responsif dengan batas lebar maksimal 900px, sehingga nyaman diakses baik melalui perangkat seluler maupun browser desktop.
 
-This project is a starting point for a Flutter application.
+🔗 **[Coba Live Demo MOKA di sini!](https://moka-app-demo.netlify.app/)**
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## ✨ Fitur Utama
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Katalog Menu Interaktif:** Menampilkan daftar minuman dan camilan dengan filter kategori dinamis (All, Signature, Coffee, Non-coffee).
+- **Keranjang Belanja (Cart) Real-time:** Menambahkan produk ke keranjang dengan kalkulasi total harga (Rupiah) dan PB1 (10%) secara otomatis.
+- **Simulasi Checkout Pembayaran:** Menyediakan opsi pembayaran simulasi menggunakan **QRIS** (menampilkan QR Code) maupun uang **Tunai** (dengan fitur kalkulasi kembalian).
+- **Penyimpanan Data Lokal:** Memanfaatkan `shared_preferences` untuk menyimpan status keranjang belanja dan riwayat pesanan (Order History) di peramban pengguna agar tidak hilang saat di-refresh.
+- **Responsive Layout:** Antarmuka dengan dukungan layar sentuh maupun interaksi *mouse/hover* untuk desktop.
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Framework:** Flutter (versi Web)
+- **Bahasa Pemrograman:** Dart
+- **State Management:** Stateful & Stateless Widgets
+- **Local Storage:** `shared_preferences`
+- **Tipografi:** `google_fonts` (DM Sans & VT323)
+- **Deployment:** GitHub & Netlify
+
+---
+
